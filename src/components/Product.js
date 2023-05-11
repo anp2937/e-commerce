@@ -8,7 +8,7 @@ function Product() {
 
   const { id } = useParams();
   const [product, setProduct] = useState([]);
-  const cart = useContext(UserContext)[3];
+  //const cart = useContext(UserContext)[3];
   const setCart = useContext(UserContext)[4];
 
 

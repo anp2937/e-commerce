@@ -8,7 +8,7 @@ import Product from './components/Product';
 import Login from './components/Login';
 import Item from './components/Cart';
 import Checkout from './components/Checkout';
-import { Route, Routes, Link} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import {BrowserRouter as Router} from "react-router-dom";
 import {useState} from 'react';
 import Navbar from './components/Navbar';

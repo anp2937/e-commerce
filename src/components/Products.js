@@ -7,7 +7,6 @@ function Products() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [filter, setFilter] = useState(data);
-    const setCart = useContext(UserContext)[4];
 
     // get product list from fakestore api.
     useEffect(() => {
